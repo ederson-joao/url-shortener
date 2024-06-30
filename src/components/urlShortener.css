@@ -1,0 +1,76 @@
+.url-shortener {
+  max-width: 100%;
+  margin: 20px; 
+  display: grid;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.url-shortener img {
+  max-width: 80%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto 20px; 
+}
+
+.url-shortener h2 {
+  font-family: 'PoppinsBold';
+  font-size: 24px; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.url-input {
+  text-align: center;
+  width: 100%; 
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 20px auto; 
+  box-sizing: border-box;
+}
+
+
+.shorten-button {
+  width: 100%; 
+  max-width: 200px; 
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px auto; 
+}
+
+.shortened-url {
+  margin-top: 20px;
+  text-align: center; 
+}
+
+.shortened-url p {
+  font-size: 16px; 
+  margin-bottom: 10px;
+}
+
+.shortened-link {
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.shortened-link:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 16px;
+  margin-top: 10px;
+}
